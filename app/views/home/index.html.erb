@@ -1,0 +1,22 @@
+<div class="container">
+  <table>
+    <thead>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Supplier GUID</th>
+    </thead>
+    <tbody>
+      <% if @objects.any? %>
+        <% @objects.each do |object| %>
+          <tr>
+            <td><%= object[:id] %></td>
+            <td><%= object[:name] %></td>
+            <td><%= object[:supplier_guid] %></td>
+          </tr>
+        <% end %>
+      <% else %>
+        <tr><td colspan="3">No result</td></tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>

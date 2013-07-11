@@ -1,0 +1,19 @@
+{
+  "principals": [
+    {
+      "id": 3,
+      "name": "Name 1",
+      "supplier_guid": "id1"
+    },
+    {
+      "id": 4,
+      "name": "Name 2",
+      "supplier_guid": "id2"
+    },
+    {
+      "id": 14,
+      "name": "Name 3",
+      "supplier_guid": "id3"
+    }
+  ]
+}
